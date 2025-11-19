@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    background-color: lightblue; /* fills sides if image isn't full width */
+  }
+
+.About_Me {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 25px;
+    overflow: visible;
+    color: black;
+    top: 50px;
+}
+
+#YAAR_Consulting_Button {
+    float: right;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#Vita_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#Child_welfare_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#School_climate_Button{
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 250px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#Identity-based_victimization_Button{
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 350px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#Bullying_and_violence_Button{
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 450px;
+    left: 10px;
+    z-index: 10000;
+}
+
+button:hover {
+    background-color: #ebe7e7;
+  }
+
+#menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10000; /* Ensure the menu is above other content */
+    visibility: hidden; /* Initially hidden */
+}
+
+#Menu_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    content: black;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    z-index: 99999; /* super high so it’s above all other elements */
+}
+
+#menu button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+}
+
+#Bullying_and_violence_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 250px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#Identity_based_victimization_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 300px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#YAAR_Consulting_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 350px;
+    left: 10px;
+    z-index: 10000;
+}
+
+#School_climate_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 200px;
+    left: 10px;
+    z-index: 10000;
+}
+#Child_welfare_Button {
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    z-index: 10000;
+}
